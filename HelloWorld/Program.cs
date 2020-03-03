@@ -1,11 +1,15 @@
 ﻿using System;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace HelloWorld
 {
     class Program : Calculations
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
+        {
+            Application();
+        }
+
+        public static void Application()
         {
             Console.WriteLine(" __________");
             Console.WriteLine("| ________ |");
@@ -24,17 +28,30 @@ namespace HelloWorld
             double num1 = GetNumber("What is your first number?");
             double num2 = GetNumber("What is your second number?");
             double sum = AskForOperation(num1, num2);
-
-            
+            string answer;
 
             Console.WriteLine();
 
             Console.WriteLine("The sum is: " + sum);
+            Console.WriteLine("Would you like to restart? Y/N");
+            answer = Console.ReadLine();
+
+            RestartOrExit(answer);
         }
+
+        public static void RestartOrExit(string answer)
+        {
+
+            if(answer.Contains("Y") || answer.Contains("y"))
+            {
+                Application();
+            }
+        }
+
 
         public static double AskForOperation(double num1, double num2)
         {
-            double sum = 0;
+            double sum;
             Console.WriteLine("Choose your operation: * / + - ");
 
             string operation = Console.ReadLine();
@@ -42,9 +59,11 @@ namespace HelloWorld
             return sum;
         }
 
+
+
         public static double CheckOperation(string operationString, double num1, double num2)
         {
-            double sum = 0;
+            double sum;
             if(operationString == "*")
             {
                 sum = Multiply(num1, num2);

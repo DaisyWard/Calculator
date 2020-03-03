@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daisy.w\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daisy.w\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daisy.w\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\daisy.w\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\daisy.w\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daisy.w\\source\\repos\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daisy.w\\AppData\\Roaming\\NuGet\\NuGet.Config",
