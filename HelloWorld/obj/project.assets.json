@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\HelloWorld.csproj",
-      "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\Calculator.csproj",
+      "projectName": "Calculator",
+      "projectPath": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\Calculator.csproj",
       "packagesPath": "C:\\Users\\daisy.w\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\daisy.w\\source\\repos\\Calculator\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HelloWorld
+﻿namespace Calculator
 {
-    class Calculations 
+   public class Operations 
     {
-
         public static double Multiply(double num1, double num2)
         {
             return num1 * num2;

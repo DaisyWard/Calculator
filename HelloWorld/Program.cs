@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace Calculator
 {
-    class Program : Calculations
+    public class Program : Operations
     {
         public static void Main(string[] args)
         {
